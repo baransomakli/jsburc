@@ -1,0 +1,46 @@
+body {
+    background: #3E4651;
+    height: 100%;
+}
+
+#form1 {
+    text-align: center;
+    margin-top: 25%;
+}
+#form1 h2 {
+    margin-top: 40px;
+    color: #fff;
+    font-size: 28px;
+}
+/* selectbox */
+select.selectbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100px;
+    height: 32px;
+    border-radius: 6px;
+    line-height: 22px;
+    padding: 0 13px;
+    background: #f8f8f8 url(../images/arrow-down.png) no-repeat right;
+    cursor: pointer;
+}
+
+select.selectbox:hover {
+    border-color: #939393;
+}
+
+select.selectbox:focus {
+    outline: 0;
+}
+.button {
+    width: 100px;
+    height: 32px;
+    background: #4285f4;
+    border-color:transparent;
+    border-radius: 6px;
+    color: #fff;
+    font-size:14px;
+    line-height: 22px;
+    cursor: pointer;
+}
