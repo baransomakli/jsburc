@@ -1,6 +1,3 @@
-    /*var gun = prompt("Doğdunuz Günü Giriniz?");
-     var ay = prompt("Doğdunuz Ayı Giriniz?");
-     */
     function burc() {
         var gun = document.getElementById("form1").SelectBoxDay.value;
         var ay = document.getElementById("form1").SelectBoxMonth.value;
