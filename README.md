@@ -1,1 +1,2 @@
-JavaScript ile yapmış olduğum burç gösterme uygulaması
+JavaScript ile yapmÄ±ÅŸ olduÄŸum burÃ§ gÃ¶sterme uygulamasÄ±
+Demo: http://baransomakli.com/demo/javascript/burc/
