@@ -5,7 +5,12 @@ body {
 
 #form1 {
     text-align: center;
-    margin-top: 25%;
+    margin-top: calc(50% - 32px);
+    /* margin-top: 25%; */
+    /* using dinamic margin value is not a good idea.
+    use calc() in order to position an element right
+    at the middle of the screen
+    NOTE: 32px is the height of #form1 */
 }
 #form1 h2 {
     margin-top: 40px;
@@ -22,7 +27,7 @@ select.selectbox {
     border-radius: 6px;
     line-height: 22px;
     padding: 0 13px;
-    background: #f8f8f8 url(../images/arrow-down.png) no-repeat right;
+    background: #f8f8f8 url(../images/arrow-down.png) right no-repeat;
     cursor: pointer;
 }
 
